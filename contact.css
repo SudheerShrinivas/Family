@@ -1,0 +1,288 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body
+{
+    width: 100%;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+/* navbar starts */
+nav
+{
+    /* border: 1px solid red; */
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 2px 0px 30px 10px rgba(225, 219, 219, 0.333);
+    background-color: white;
+}
+nav ul
+{
+    /* border: 8px solid green; */
+    display: inline;
+    margin-left: 365px;
+}
+nav ul li
+{
+    /* border: 1px solid yellow; */
+    display: inline;
+}
+nav .navbar-brand-logo
+{
+    margin-left: 90px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #24325d;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+nav ul li a
+{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    color: #24325d;
+    transition: color .5s;
+}
+nav ul li a:hover
+{
+    color: #006fbe;
+}
+/* navbar ends */
+.secondnav
+{
+    margin-top: 5%;
+    height: 60px;
+    background-color: rgba(95, 158, 160, 0.089);
+    width: 100%;  
+    display:flex;
+}
+.secondnav h2
+{
+    font-size: 28px;
+    font-weight: 300px;
+    margin-left: 8%;
+    font-family: "Raleway", sans-serif;
+    margin-top: 13px;
+    color: slategrey;
+}
+.secondnav a
+{
+    text-decoration: none;
+    color: #006fbe;
+    margin-left: 825px;
+    margin-top: 18px;
+}
+.secondnav a:hover
+{
+    color: skyblue;
+}
+.secondnav p
+{
+    margin-left: 10px;
+    margin-top: 18px;
+}
+#about
+{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(29,40,75);
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+
+}
+
+#about .final1 h1
+{
+font-size: 50px;
+margin-top: 50px;
+padding-top: 20px;
+margin-bottom: 20px;
+}
+
+#about .final1 p
+{
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#about .final2 ul
+{
+display: flex;
+padding-left: 530px;
+margin-bottom: 20px;
+/* text-align: center; */
+
+
+}
+
+#about .final2 ul li
+{
+    padding: 20px;
+    font-size: 30px;
+    
+}
+#about .final3 p
+
+{
+    margin-bottom: 10px;
+}
+#about .final3 #tr
+{
+    color: rgb(231, 224, 224);
+    font-weight: bolder;
+   
+}
+.maps 
+{
+    height: 300px;
+    width: 80%;
+    
+}
+.maps iframe
+{
+    height: 100%;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 70px;
+}
+.mforms
+{
+/* border: 3px solid red; */
+background-color:rgba(255, 255, 255, 0.637);
+margin: 100px auto;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+height: 450px;
+border-radius: 0px 50px;
+margin-left: 45px;
+margin-right: 80px;
+margin-top: 70px;
+
+
+}
+
+
+
+.child1
+{
+/* border: 3px solid blue; */
+width: 40%;
+
+
+}
+
+
+.child2
+{
+/* border: 3px solid green; */
+width: 60%;
+}
+
+
+.child1-child
+{
+/* background-color: blueviolet; */
+/* border: 2px solid black; */
+margin-top: 20px;
+margin-bottom: 40px;
+margin-left: 100px;
+
+
+padding: 10px;
+}
+
+
+.child2-child
+{
+border-color: chartreuse;
+/* border: 2px solid black; */
+}
+
+
+
+#gchild
+{
+padding-left: 50px;
+font-size: 15px;
+color: rgb(114, 113, 113);
+}
+
+.child2-child1
+{
+width: 45%;
+height: 50px;
+margin-top: 30px;
+border: 1px solid lightgray;
+border-radius: 5px;
+padding-left: 10px;
+}
+.child2-child2
+{
+width: 45%;
+height: 50px;
+margin-bottom: 15px;
+margin-top: 40px;
+border: 1px solid lightgray;
+border-radius: 5px;
+padding-left: 10px;
+}
+.child2-child3
+{
+    width: 90.5%;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+.child2-child4
+{
+    margin-top:30px ;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid lightgray;  
+    padding-left: 10px;
+}
+.child2-child5
+{
+    text-decoration: none;
+    align-items: center;
+    margin-left: 325px;
+    background-color: #006fbe;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+    
+}
+
+.child1 i
+{
+    color:#006fbe;
+    /* border: 2px solid black; */
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(211, 211, 211, 0.322);
+    border-radius: 100%;
+}
+
+.child1 i:hover 
+{
+    background-color: #006fbe;
+    color: white;
+}
+
